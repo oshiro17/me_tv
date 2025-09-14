@@ -1,39 +1,62 @@
-## 使用している主なバージョン
+## 使ってるバージョンとか
 
-- Node.js: v20 以上推奨
+- Node.js: v20 以上がおすすめだよ〜
 - React: 19.1.1
 - React DOM: 19.1.1
 - @react-three/fiber: 8.2.2
 - @react-three/drei: 9.56.32
-- three: 最新安定版
+- three: 最新の安定版だよ
 - TypeScript: 5 系
-- その他: @types/three など型定義パッケージ
+- あとね、@types/three みたいな型定義パッケージも使ってるよ
 
 ---
 
-## 環境構築手順
+## 環境の準備の仕方
 
-1. **リポジトリをクローン**
+1. **まずはリポジトリをクローンしてね！**
    ```bash
    git clone https://github.com/あなたのユーザー名/warp-globe.git
    cd warp-globe
    ```
 
-2. **依存関係をインストール**
+2. **次に依存関係をインストールしよっか！**
    ```bash
    npm install
    ```
 
-3. **開発サーバーを起動**
+3. **最後に開発サーバーを起動〜！**
    ```bash
    npm start
    ```
 
 ---
 
-## 注意点
-- `public/hana.png` を配置してください。  
-  地球の周りに小さな花アイコンがランダムに30個表示されます。
+
+## ちょっと注意してほしいこと
+
+- `public/hana.png` をちゃんと置いてね！  
+  地球のまわりにかわいい小さな花アイコンがランダムに30個ポコポコ出てくるよ〜
+
+---
+
+## ファイルのざっくり説明だよ
+
+このプロジェクトでよく使うファイルと、その役割をざっくり教えるね！
+
+- `src/App.tsx`  
+  アプリの入り口だよ。全体の構成とかルーティングを管理してるよ。
+- `src/Globe.tsx`  
+  地球儀とかピン、花のアイコンを描いてるメインのコンポーネントだよ。
+- `src/CameraRig.tsx`  
+  カメラの動き（ワープ演出）をコントロールしてるよ。
+- `src/Pin.tsx`  
+  ピン（目印のアイコン）を描いてるよ。
+- `public/hana.png`  
+  地球に置かれる花のアイコン画像だよ。
+- `src/react-three-fiber.d.ts`  
+  TypeScript用の型補助ファイル。three.jsとかreact-three-fiberの型情報を補ってくれるよ。
+- あとね、`index.tsx`, `index.css` とかの普通の Create React App (CRA) のファイルも入ってるよ。  
+  これらはアプリの起動とかスタイルの設定をしてくれてるんだ。
 
 # Getting Started with Create React App
 
