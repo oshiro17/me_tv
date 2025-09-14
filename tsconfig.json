@@ -1,5 +1,7 @@
 {
   "compilerOptions": {
+    "jsx": "react-jsx",
+    "types": ["react", "react-dom", "@react-three/fiber"],
     "target": "es5",
     "lib": [
       "dom",
