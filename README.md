@@ -1,3 +1,40 @@
+## 使用している主なバージョン
+
+- Node.js: v20 以上推奨
+- React: 19.1.1
+- React DOM: 19.1.1
+- @react-three/fiber: 8.2.2
+- @react-three/drei: 9.56.32
+- three: 最新安定版
+- TypeScript: 5 系
+- その他: @types/three など型定義パッケージ
+
+---
+
+## 環境構築手順
+
+1. **リポジトリをクローン**
+   ```bash
+   git clone https://github.com/あなたのユーザー名/warp-globe.git
+   cd warp-globe
+   ```
+
+2. **依存関係をインストール**
+   ```bash
+   npm install
+   ```
+
+3. **開発サーバーを起動**
+   ```bash
+   npm start
+   ```
+
+---
+
+## 注意点
+- `public/hana.png` を配置してください。  
+  地球の周りに小さな花アイコンがランダムに30個表示されます。
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -44,3 +81,4 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+# me_tv
